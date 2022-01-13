@@ -1,0 +1,52 @@
+{
+  "name": "classroom",
+  "description": "Classroom documentation",
+  "author": "Recai Oktaş <roktas@gmail.com>",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "@vuepress/plugin-toc": "^2.0.0-beta.7",
+    "eslint": "^8.6.0",
+    "markdownlint-cli": "^0.30.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-scss": "^4.0.3",
+    "rimraf": "^3.0.2",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0",
+    "typescript": "^4.5.4",
+    "vuepress": "^2.0.0-beta.33"
+  },
+  "scripts": {
+    "build": "vuepress build docs",
+    "clean": "rimraf docs/.vuepress/.temp docs/.vuepress/.cache docs/.vuepress/dist",
+    "dev": "vuepress dev docs --clean-cache",
+    "lint": "yarn npm-run-all \"lint:*\"",
+    "lint:code": "eslint --max-warnings 0 \"docs/.vuepress/**/*.ts\"",
+    "lint:markdown": "markdownlint \"docs/**/*.md\"",
+    "lint:style": "stylelint \"docs/.vuepress/**/*.scss\""
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 13,
+      "parser": "@typescript-eslint/parser",
+      "sourceType": "module"
+    },
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "rules": {}
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "customSyntax": "postcss-scss"
+  }
+}

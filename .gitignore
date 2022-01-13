@@ -1,0 +1,7 @@
+.cache
+.local/tmp
+.local/var
+.temp
+/.../
+dist
+node_modules

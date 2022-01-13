@@ -1,0 +1,56 @@
+:root {
+  --color-blue: #105bab;
+  --color-cyan: #8ed6fb;
+  --color-gold: #bc9b6a;
+  --color-purple: #5d2f86;
+  --color-red: #d70a53;
+  --c-brand: var(--color-purple);
+  --c-brand-light: var(--color-purple);
+
+  .page .theme-default-content p { text-align: justify; }
+
+  img.gif {
+    width: 700px;
+    height: auto;
+    padding: 10px;
+  }
+
+  .popup {
+    zoom: 1;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+  }
+
+  .popup span {
+    position: fixed;
+    outline: none;
+    top: 270px;
+    padding: 10px;
+    left: -999em;
+    z-index: 990;
+  }
+
+  * html .popup span { position: absolute; }
+
+  .popup:hover { visibility: visible; }
+
+  .popup:hover span { left: 350px; }
+
+  .home .feature p {
+    color: var(--c-text);
+  }
+
+  .home .hero img {
+    max-height: 100%;
+  }
+
+  .navbar .navbar-items-wrapper {
+    font-size: 1rem;
+  }
+}
+
+html.dark {
+  --c-brand: var(--color-cyan);
+  --c-brand-light: var(--color-cyan);
+}
