@@ -1,7 +1,8 @@
-.cache
-.local/tmp
-.local/var
-.temp
 /.../
+.cache
 dist
+.local/doc/todo/
+.local/tmp/
+.local/var/
 node_modules
+.temp
