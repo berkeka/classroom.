@@ -21,8 +21,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
           ['link', { rel: 'manifest', href: '/site.webmanifest' }],
           ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-          ['meta', { name: 'theme-color', content: '#5d2f86' media='(prefers-color-scheme: light)' }],
-          ['meta', { name: 'theme-color', content: '#8ed6fb' media='(prefers-color-scheme: dark)'  }],
+          ['meta', { name: 'theme-color', content: '#5d2f86', media='(prefers-color-scheme: light)' }],
+          ['meta', { name: 'theme-color', content: '#8ed6fb', media='(prefers-color-scheme: dark)'  }],
           ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
           ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
 
@@ -47,8 +47,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
           ['link', { rel: 'manifest', href: '/site.webmanifest' }],
           ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
-          ['meta', { name: 'theme-color', content: '#5d2f86' media='(prefers-color-scheme: light)' }],
-          ['meta', { name: 'theme-color', content: '#8ed6fb' media='(prefers-color-scheme: dark)'  }],
+          ['meta', { name: 'theme-color', content: '#5d2f86', media='(prefers-color-scheme: light)' }],
+          ['meta', { name: 'theme-color', content: '#8ed6fb', media='(prefers-color-scheme: dark)'  }],
           ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
           ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
 
