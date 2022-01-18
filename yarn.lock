@@ -78,6 +78,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@snippetors/vuepress-plugin-code-copy@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@snippetors/vuepress-plugin-code-copy/-/vuepress-plugin-code-copy-1.1.1.tgz#136ec48a5d449a16bd2e407aa37f7c9379e44e44"
+  integrity sha512-2W5SdrruqZhm5nvgzv+6EfpzsLSKKQ84adSQvIpnBDZfpotrBGoVqXY6aPc33klJoQLIUS3/C8LOsdwdAqltRQ==
+
 "@types/debug@^4.1.5", "@types/debug@^4.1.7":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.7.tgz#7cc0ea761509124709b8b2d1090d8f6c17aadb82"

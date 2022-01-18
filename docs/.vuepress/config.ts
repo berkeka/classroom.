@@ -9,6 +9,10 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
   },
 
+  plugins: [
+    "@snippetors/vuepress-plugin-code-copy"
+  ],
+
   locales: {
     '/': {
       lang: 'tr-TR',
