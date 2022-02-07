@@ -1,0 +1,1 @@
+const t={key:"v-11280f0e",path:"/guide/workflow.html",title:"\xC7al\u0131\u015Fma ak\u0131\u015F\u0131",lang:"tr-TR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1644193322e3,contributors:[{name:"Recai Okta\u015F",email:"roktas@gmail.com",commits:1}]},filePathRelative:"guide/workflow.md"};export{t as data};

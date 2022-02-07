@@ -1,0 +1,1 @@
+const e={key:"v-dc369030",path:"/refer/",title:"Ba\u015Fvuru",lang:"tr-TR",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1644193322e3,contributors:[{name:"Recai Okta\u015F",email:"roktas@gmail.com",commits:1}]},filePathRelative:"refer/README.md"};export{e as data};
